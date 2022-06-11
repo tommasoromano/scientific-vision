@@ -1,43 +1,53 @@
-\documentclass[11pt, oneside]{article}   	% use "amsart" instead of "article" for AMSLaTeX format
-\usepackage{geometry}                		% See geometry.pdf to learn the layout options. There are lots.
-\geometry{letterpaper}                   		% ... or a4paper or a5paper or ... 
-%\geometry{landscape}                		% Activate for rotated page geometry
-%\usepackage[parfill]{parskip}    		% Activate to begin paragraphs with an empty line rather than an indent
-\usepackage{graphicx}				% Use pdf, png, jpg, or eps§ with pdflatex; use eps in DVI mode
-								% TeX will automatically convert eps --> pdf in pdflatex		
+\documentclass[11pt, oneside]{article}   	
+\usepackage{geometry}                		
+\geometry{letterpaper}                   		
+%\geometry{landscape}                	
+%\usepackage[parfill]{parskip}
+\usepackage{graphicx}
 \usepackage{amssymb}
 
 %SetFonts
 
 %SetFonts
 
-\graphicspath{ {./images/} } 			
+\graphicspath{ {./imgs/} } 			
 
-\title{Population Pyramids}
-\author{M: 941796}
-%\date{}							% Activate to display a given date or no date
+\title{Missing Data}
+\author{Tommaso Romano - 941796}
+%\date{}
 
 \begin{document}
 \maketitle
 
-
 \tableofcontents
 \pagebreak
-\section{Cos'è una "population pyramid"}
-Una "population pyramid" è una illustrazione grafica che ci permette di visualizzare la distribuzione di una popolazione (che può essere un paese in particolare, una regione del mondo, o un continente). E' formata da due istogrammi che rappresentano le distribuzioni maschili e femminili di un paese, disposti simmetricamente intorno ad un'asse verticale che rappresenta le età.
+\section{Introduzione}
 
-La population pyramid è formata quindi da una serie di barre ad istogramma, la popolazione è rappresentata in proporzione o in valore assoluto dalla grandezza dell'asse orizzontale, ed le fasce di anni sono rappresentati dall'asse $y$.
+\subsection{Dataset}
 
+\subsection{PySpark}
+
+\subsection{Echarts}
 
 \begin{center}
 %\includegraphics[scale=0.6]{pop}
 \end{center}
 
-\subsection{Perché è chiamata una "piramide"?}
-L'origine del nome deriva dalla forma che questo grafico ha assunto per la maggior parte degli ultimi 200 anni, ovvero quella della piramide:
+\section{Handling missing data}
+
+\subsection{Missingno}
+
 \begin{center}
-%\includegraphics[scale=0.5]{pyramid.png}
+\includegraphics[scale=0.2]{bars.png}
 \end{center}
+\begin{center}
+\includegraphics[scale=0.2]{matrix.png}
+\end{center}
+\begin{center}
+\includegraphics[scale=0.2]{heatmap.png}
+\end{center}
+
+
 Caratterizzata da una forma chiaramente piramidale, senza buoni contraccettivi e con una popolazione poco educata, la popolazione cresce man mano che ci spostiamo verso il basso del grafico, le famiglie sono quindi composte da molti bambini, che in gran parte non raggiunge neanche la maggiore età, e la popolazione diminuisce progressivamente per la mancanza di buona medicina e prevenzione. Quella comunque, è la "population pyramid" dell'Africa Subsahariana.
 
 
@@ -69,7 +79,7 @@ L'ultimo dato fondamentale è la proporzione tra maschi e femmine, rispetto ad o
 \subsection{Costruzione di diagramma a barre}
 Siccome il dataset raccoglie già i valori di popolazione per age bracket, il primo grafico che possiamo andare a costruire è il bar chart. Il bar chart è un grafico formato da rettangoli la cui altezza è dimensionata in base a valore che vanno a rappresentare. 
 
-Siccome vogliamo lavorare con un subset dei dati presenti, effettuiamo uno slicing sul dataframe iniziale, e chiamiamo la funzione plot, con argument \emph{kind = 'bar'} per costruire il diagramma a barre.
+Siccome vogliamo lavorare c on un subset dei dati presenti, effettuiamo uno slicing sul dataframe iniziale, e chiamiamo la funzione plot, con argument \emph{kind = 'bar'} per costruire il diagramma a barre.
 \begin{center}
 %\includegraphics[scale=0.6]{bar}
 \end{center}

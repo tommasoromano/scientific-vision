@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.19)  8 JUN 2022 15:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.19)  10 JUN 2022 17:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -90,20 +90,20 @@ File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
 ) (./presentation.aux)
 \openout1 = `presentation.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -163,12 +163,12 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Font Info:    Trying to load font information for U+msa on input line 21.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 20.
 
  (/usr/local/texlive/2022basic/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 21.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 20.
 
 
 (/usr/local/texlive/2022basic/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -180,33 +180,48 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
  [1
 
-{/usr/local/texlive/2022basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2
-] [3] [4]
-Underfull \hbox (badness 10000) in paragraph at lines 135--136
+{/usr/local/texlive/2022basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+<./imgs//bars.png, id=11, 1919.17pt x 1090.0725pt>
+File: ./imgs//bars.png Graphic file (type png)
+<use ./imgs//bars.png>
+Package pdftex.def Info: ./imgs//bars.png  used on input line 34.
+(pdftex.def)             Requested size: 383.8272pt x 218.01064pt.
+<./imgs//matrix.png, id=13, 1660.2025pt x 900.36375pt>
+File: ./imgs//matrix.png Graphic file (type png)
+<use ./imgs//matrix.png>
+Package pdftex.def Info: ./imgs//matrix.png  used on input line 37.
+(pdftex.def)             Requested size: 332.03462pt x 180.06955pt.
+<./imgs//heatmap.png, id=14, 1483.5425pt x 1002.74625pt>
+File: ./imgs//heatmap.png Graphic file (type png)
+<use ./imgs//heatmap.png>
+Package pdftex.def Info: ./imgs//heatmap.png  used on input line 40.
+(pdftex.def)             Requested size: 296.70325pt x 200.5457pt.
+ [2 <./imgs//bars.png> <./imgs//matrix.png>] [3 <./imgs//heatmap.png>] [4] [5]
+Underfull \hbox (badness 10000) in paragraph at lines 136--137
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--138
+Underfull \hbox (badness 10000) in paragraph at lines 138--139
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 139--141
+Underfull \hbox (badness 10000) in paragraph at lines 140--142
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 142--143
+Underfull \hbox (badness 10000) in paragraph at lines 143--144
 
  []
 
-[5] [6] (./presentation.aux) ) 
+[6] [7] (./presentation.aux) ) 
 Here is how much of TeX's memory you used:
- 2401 strings out of 479719
- 36636 string characters out of 5880574
- 329611 words of memory out of 5000000
- 20402 multiletter control sequences out of 15000+600000
+ 2426 strings out of 479719
+ 37147 string characters out of 5880574
+ 329607 words of memory out of 5000000
+ 20423 multiletter control sequences out of 15000+600000
  477957 words of font info for 60 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
  55i,6n,62p,685b,218s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -221,10 +236,10 @@ cal/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr
 /local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></u
 sr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb
 >
-Output written on presentation.pdf (6 pages, 120924 bytes).
+Output written on presentation.pdf (7 pages, 603539 bytes).
 PDF statistics:
- 69 PDF objects out of 1000 (max. 8388607)
- 42 compressed objects within 1 object stream
+ 81 PDF objects out of 1000 (max. 8388607)
+ 47 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
