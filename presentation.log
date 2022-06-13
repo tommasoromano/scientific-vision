@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.19)  10 JUN 2022 17:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.19)  13 JUN 2022 15:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -181,65 +181,193 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
  [1
 
 {/usr/local/texlive/2022basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-<./imgs//bars.png, id=11, 1919.17pt x 1090.0725pt>
-File: ./imgs//bars.png Graphic file (type png)
-<use ./imgs//bars.png>
-Package pdftex.def Info: ./imgs//bars.png  used on input line 34.
+<./imgs//1_init.png, id=11, 773.89125pt x 157.58875pt>
+File: ./imgs//1_init.png Graphic file (type png)
+<use ./imgs//1_init.png>
+Package pdftex.def Info: ./imgs//1_init.png  used on input line 29.
+(pdftex.def)             Requested size: 309.55101pt x 63.03436pt.
+<./imgs//1_spark.png, id=13, 1009.27063pt x 609.77812pt>
+File: ./imgs//1_spark.png Graphic file (type png)
+<use ./imgs//1_spark.png>
+Package pdftex.def Info: ./imgs//1_spark.png  used on input line 32.
+(pdftex.def)             Requested size: 403.7011pt x 243.90692pt.
+<./imgs//1_pandas.png, id=14, 1213.53375pt x 266.9975pt>
+File: ./imgs//1_pandas.png Graphic file (type png)
+<use ./imgs//1_pandas.png>
+Package pdftex.def Info: ./imgs//1_pandas.png  used on input line 35.
+(pdftex.def)             Requested size: 485.4049pt x 106.79709pt.
+
+Overfull \hbox (55.40028pt too wide) in paragraph at lines 35--36
+ [] 
+ []
+
+<./imgs//1_echarts_1.png, id=15, 1228.59pt x 742.775pt>
+File: ./imgs//1_echarts_1.png Graphic file (type png)
+<use ./imgs//1_echarts_1.png>
+Package pdftex.def Info: ./imgs//1_echarts_1.png  used on input line 43.
+(pdftex.def)             Requested size: 368.57985pt x 222.83421pt.
+<./imgs//1_echarts_2.png, id=16, 1226.5825pt x 660.4675pt>
+File: ./imgs//1_echarts_2.png Graphic file (type png)
+<use ./imgs//1_echarts_2.png>
+Package pdftex.def Info: ./imgs//1_echarts_2.png  used on input line 44.
+(pdftex.def)             Requested size: 367.97758pt x 198.14177pt.
+[2 <./imgs//1_init.png> <./imgs//1_spark.png> <./imgs//1_pandas.png>]
+<./imgs//1_conditions.png, id=23, 779.41188pt x 227.34938pt>
+File: ./imgs//1_conditions.png Graphic file (type png)
+<use ./imgs//1_conditions.png>
+Package pdftex.def Info: ./imgs//1_conditions.png  used on input line 50.
+(pdftex.def)             Requested size: 311.75923pt x 90.93813pt.
+ [3 <./imgs//1_echarts_1.png> <./imgs//1_echarts_2.png>]
+<./imgs//1_bars.png, id=29, 885.80937pt x 640.3925pt>
+File: ./imgs//1_bars.png Graphic file (type png)
+<use ./imgs//1_bars.png>
+Package pdftex.def Info: ./imgs//1_bars.png  used on input line 53.
+(pdftex.def)             Requested size: 354.31747pt x 256.15245pt.
+<./imgs//1_funnel.png, id=30, 983.675pt x 557.58313pt>
+File: ./imgs//1_funnel.png Graphic file (type png)
+<use ./imgs//1_funnel.png>
+Package pdftex.def Info: ./imgs//1_funnel.png  used on input line 56.
+(pdftex.def)             Requested size: 393.46303pt x 223.0293pt.
+ [4 <./imgs//1_conditions.png> <./imgs//1_bars.png>]
+<./imgs//2_obs.png, id=36, 1211.52625pt x 302.12875pt>
+File: ./imgs//2_obs.png Graphic file (type png)
+<use ./imgs//2_obs.png>
+Package pdftex.def Info: ./imgs//2_obs.png  used on input line 62.
+(pdftex.def)             Requested size: 484.60191pt x 120.84935pt.
+
+Overfull \hbox (54.59729pt too wide) in paragraph at lines 62--63
+ [] 
+ []
+
+<./imgs//2_msn.png, id=37, 860.21375pt x 90.83937pt>
+File: ./imgs//2_msn.png Graphic file (type png)
+<use ./imgs//2_msn.png>
+Package pdftex.def Info: ./imgs//2_msn.png  used on input line 68.
+(pdftex.def)             Requested size: 344.07939pt x 36.3351pt.
+<./imgs//2_msn_bars.png, id=38, 1919.17pt x 1090.0725pt>
+File: ./imgs//2_msn_bars.png Graphic file (type png)
+<use ./imgs//2_msn_bars.png>
+Package pdftex.def Info: ./imgs//2_msn_bars.png  used on input line 71.
 (pdftex.def)             Requested size: 383.8272pt x 218.01064pt.
-<./imgs//matrix.png, id=13, 1660.2025pt x 900.36375pt>
-File: ./imgs//matrix.png Graphic file (type png)
-<use ./imgs//matrix.png>
-Package pdftex.def Info: ./imgs//matrix.png  used on input line 37.
-(pdftex.def)             Requested size: 332.03462pt x 180.06955pt.
-<./imgs//heatmap.png, id=14, 1483.5425pt x 1002.74625pt>
-File: ./imgs//heatmap.png Graphic file (type png)
-<use ./imgs//heatmap.png>
-Package pdftex.def Info: ./imgs//heatmap.png  used on input line 40.
-(pdftex.def)             Requested size: 296.70325pt x 200.5457pt.
- [2 <./imgs//bars.png> <./imgs//matrix.png>] [3 <./imgs//heatmap.png>] [4] [5]
-Underfull \hbox (badness 10000) in paragraph at lines 136--137
+[5 <./imgs//1_funnel.png> <./imgs//2_obs.png> <./imgs//2_msn.png>]
+<./imgs//2_msn_matrix.png, id=45, 1660.2025pt x 900.36375pt>
+File: ./imgs//2_msn_matrix.png Graphic file (type png)
+<use ./imgs//2_msn_matrix.png>
+Package pdftex.def Info: ./imgs//2_msn_matrix.png  used on input line 74.
+(pdftex.def)             Requested size: 415.0496pt x 225.09038pt.
+<./imgs//2_msn_heatmap.png, id=46, 1483.5425pt x 1002.74625pt>
+File: ./imgs//2_msn_heatmap.png Graphic file (type png)
+<use ./imgs//2_msn_heatmap.png>
+Package pdftex.def Info: ./imgs//2_msn_heatmap.png  used on input line 77.
+(pdftex.def)             Requested size: 370.88472pt x 250.68594pt.
+ [6 <./imgs//2_msn_bars.png> <./imgs//2_msn_matrix.png>]
+<./imgs//2_filter.png, id=52, 890.32625pt x 289.08pt>
+File: ./imgs//2_filter.png Graphic file (type png)
+<use ./imgs//2_filter.png>
+Package pdftex.def Info: ./imgs//2_filter.png  used on input line 83.
+(pdftex.def)             Requested size: 356.12419pt x 115.62994pt.
+<./imgs//2_filter_obs.png, id=53, 867.74188pt x 316.18124pt>
+File: ./imgs//2_filter_obs.png Graphic file (type png)
+<use ./imgs//2_filter_obs.png>
+Package pdftex.def Info: ./imgs//2_filter_obs.png  used on input line 86.
+(pdftex.def)             Requested size: 347.0906pt x 126.47025pt.
+<./imgs//2_filter_obs_df.png, id=54, 871.75688pt x 199.24437pt>
+File: ./imgs//2_filter_obs_df.png Graphic file (type png)
+<use ./imgs//2_filter_obs_df.png>
+Package pdftex.def Info: ./imgs//2_filter_obs_df.png  used on input line 89.
+(pdftex.def)             Requested size: 348.69658pt x 79.69633pt.
+ [7 <./imgs//2_msn_heatmap.png> <./imgs//2_filter.png> <./imgs//2_filter_obs.pn
+g>]
+<./imgs//2_msn_df.png, id=62, 1536.74126pt x 775.89874pt>
+File: ./imgs//2_msn_df.png Graphic file (type png)
+<use ./imgs//2_msn_df.png>
+Package pdftex.def Info: ./imgs//2_msn_df.png  used on input line 92.
+(pdftex.def)             Requested size: 614.68562pt x 310.354pt.
 
+Overfull \hbox (184.681pt too wide) in paragraph at lines 92--93
+ [] 
  []
 
+<./imgs//2_sort.png, id=63, 879.285pt x 277.035pt>
+File: ./imgs//2_sort.png Graphic file (type png)
+<use ./imgs//2_sort.png>
+Package pdftex.def Info: ./imgs//2_sort.png  used on input line 100.
+(pdftex.def)             Requested size: 351.70778pt x 110.81203pt.
+[8 <./imgs//2_filter_obs_df.png> <./imgs//2_msn_df.png>]
+<./imgs//3_trunc.png, id=69, 872.25874pt x 306.64563pt>
+File: ./imgs//3_trunc.png Graphic file (type png)
+<use ./imgs//3_trunc.png>
+Package pdftex.def Info: ./imgs//3_trunc.png  used on input line 103.
+(pdftex.def)             Requested size: 348.89731pt x 122.65607pt.
+<./imgs//3_trunc_df.png, id=70, 650.93187pt x 284.06125pt>
+File: ./imgs//3_trunc_df.png Graphic file (type png)
+<use ./imgs//3_trunc_df.png>
+Package pdftex.def Info: ./imgs//3_trunc_df.png  used on input line 106.
+(pdftex.def)             Requested size: 260.36813pt x 113.62247pt.
+<./imgs//3_fill_time.png, id=71, 847.165pt x 591.71063pt>
+File: ./imgs//3_fill_time.png Graphic file (type png)
+<use ./imgs//3_fill_time.png>
+Package pdftex.def Info: ./imgs//3_fill_time.png  used on input line 109.
+(pdftex.def)             Requested size: 338.85999pt x 236.68005pt.
+ [9 <./imgs//2_sort.png> <./imgs//3_trunc.png> <./imgs//3_trunc_df.png>]
+<./imgs//3_fill_time_df.png, id=78, 765.86125pt x 319.69438pt>
+File: ./imgs//3_fill_time_df.png Graphic file (type png)
+<use ./imgs//3_fill_time_df.png>
+Package pdftex.def Info: ./imgs//3_fill_time_df.png  used on input line 112.
+(pdftex.def)             Requested size: 306.33907pt x 127.87547pt.
+<./imgs//2_msn_df2.png, id=79, 1536.74126pt x 734.745pt>
+File: ./imgs//2_msn_df2.png Graphic file (type png)
+<use ./imgs//2_msn_df2.png>
+Package pdftex.def Info: ./imgs//2_msn_df2.png  used on input line 115.
+(pdftex.def)             Requested size: 461.02594pt x 220.42519pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 138--139
-
+Overfull \hbox (31.02132pt too wide) in paragraph at lines 115--116
+ [] 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 140--142
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 143--144
-
- []
-
-[6] [7] (./presentation.aux) ) 
+[10 <./imgs//3_fill_time.png> <./imgs//3_fill_time_df.png>]
+<./imgs//4_graph.png, id=85, 821.56938pt x 381.92688pt>
+File: ./imgs//4_graph.png Graphic file (type png)
+<use ./imgs//4_graph.png>
+Package pdftex.def Info: ./imgs//4_graph.png  used on input line 122.
+(pdftex.def)             Requested size: 328.62193pt x 152.76804pt.
+<./imgs//4_hb.png, id=86, 818.05624pt x 614.295pt>
+File: ./imgs//4_hb.png Graphic file (type png)
+<use ./imgs//4_hb.png>
+Package pdftex.def Info: ./imgs//4_hb.png  used on input line 125.
+(pdftex.def)             Requested size: 327.21669pt x 245.71364pt.
+ [11 <./imgs//2_msn_df2.png> <./imgs//4_graph.png>]
+<./imgs//4_sklearn.png, id=92, 817.55438pt x 384.93813pt>
+File: ./imgs//4_sklearn.png Graphic file (type png)
+<use ./imgs//4_sklearn.png>
+Package pdftex.def Info: ./imgs//4_sklearn.png  used on input line 128.
+(pdftex.def)             Requested size: 327.01596pt x 153.97252pt.
+<./imgs//4_hb_mean.png, id=93, 808.01875pt x 610.28pt>
+File: ./imgs//4_hb_mean.png Graphic file (type png)
+<use ./imgs//4_hb_mean.png>
+Package pdftex.def Info: ./imgs//4_hb_mean.png  used on input line 131.
+(pdftex.def)             Requested size: 323.20177pt x 244.10767pt.
+ [12 <./imgs//4_hb.png> <./imgs//4_sklearn.png>] [13 <./imgs//4_hb_mean.png>] (
+./presentation.aux) ) 
 Here is how much of TeX's memory you used:
- 2426 strings out of 479719
- 37147 string characters out of 5880574
- 329607 words of memory out of 5000000
- 20423 multiletter control sequences out of 15000+600000
- 477957 words of font info for 60 fonts, out of 8000000 for 9000
+ 2609 strings out of 479719
+ 41823 string characters out of 5880574
+ 323607 words of memory out of 5000000
+ 20583 multiletter control sequences out of 15000+600000
+ 477312 words of font info for 58 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 55i,6n,62p,685b,218s stack positions out of 10000i,1000n,20000p,200000b,200000s
- </Users/tommasoromano/Library/texlive/2022basic/
-texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1095.600pk></usr/local/texlive/2022ba
-sic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/20
-22basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texliv
-e/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/te
-xlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local
-/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/lo
-cal/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr
-/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></u
-sr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb
->
-Output written on presentation.pdf (7 pages, 603539 bytes).
+ 55i,6n,62p,209b,218s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ </Users/tommasoromano/Library/texlive/2022basic/texmf-var
+/fonts/pk/ljfour/jknappen/ec/tcrm1095.600pk></usr/local/texlive/2022basic/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2022basic/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022bas
+ic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022
+basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2
+022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on presentation.pdf (13 pages, 2612298 bytes).
 PDF statistics:
- 81 PDF objects out of 1000 (max. 8388607)
- 47 compressed objects within 1 object stream
+ 132 PDF objects out of 1000 (max. 8388607)
+ 51 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 136 words of extra memory for PDF output out of 10000 (max. 10000000)
 
