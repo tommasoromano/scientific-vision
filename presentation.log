@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.19)  13 JUN 2022 15:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.19)  19 JUN 2022 00:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -50,6 +50,135 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 \Gm@layoutvoffset=\dimen146
 \Gm@dimlist=\toks17
 )
+(/usr/local/texlive/2022basic/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2022-02-21 v7.00n Hypertext links for LaTeX
+
+(/usr/local/texlive/2022basic/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(/usr/local/texlive/2022basic/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2022basic/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2022basic/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)
+(/usr/local/texlive/2022basic/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.
+sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/usr/local/texlive/2022basic/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(/usr/local/texlive/2022basic/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2022basic/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+) (/usr/local/texlive/2022basic/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(/usr/local/texlive/2022basic/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+)
+\@linkdim=\dimen147
+\Hy@linkcounter=\count196
+\Hy@pagecounter=\count197
+
+(/usr/local/texlive/2022basic/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2022-02-21 v7.00n Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(/usr/local/texlive/2022basic/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(/usr/local/texlive/2022basic/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count198
+
+(/usr/local/texlive/2022basic/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2022-02-21 v7.00n Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4137.
+Package hyperref Info: Link nesting OFF on input line 4142.
+Package hyperref Info: Hyper index ON on input line 4145.
+Package hyperref Info: Plain pages OFF on input line 4152.
+Package hyperref Info: Backreferencing OFF on input line 4157.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4390.
+\c@Hy@tempcnt=\count199
+
+(/usr/local/texlive/2022basic/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4749.
+\XeTeXLinkMargin=\dimen148
+
+(/usr/local/texlive/2022basic/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/usr/local/texlive/2022basic/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count266
+\Field@Width=\dimen149
+\Fld@charsize=\dimen150
+Package hyperref Info: Hyper figures OFF on input line 6027.
+Package hyperref Info: Link nesting OFF on input line 6032.
+Package hyperref Info: Hyper index ON on input line 6035.
+Package hyperref Info: backreferencing OFF on input line 6042.
+Package hyperref Info: Link coloring OFF on input line 6047.
+Package hyperref Info: Link coloring with OCG OFF on input line 6052.
+Package hyperref Info: PDF/A mode OFF on input line 6057.
+LaTeX Info: Redefining \ref on input line 6097.
+LaTeX Info: Redefining \pageref on input line 6101.
+ (/usr/local/texlive/2022basic/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count267
+\c@Item=\count268
+\c@Hfootnote=\count269
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2022basic/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2022-02-21 v7.00n Hyperref driver for pdfTeX
+
+(/usr/local/texlive/2022basic/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+\Fld@listcount=\count270
+\c@bookmark@seq@number=\count271
+
+(/usr/local/texlive/2022basic/texmf-dist/tex/latex/rerunfilecheck/rerunfilechec
+k.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+(/usr/local/texlive/2022basic/texmf-dist/tex/generic/uniquecounter/uniquecounte
+r.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+)
+\Hy@SectionHShift=\skip49
+)
 (/usr/local/texlive/2022basic/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 
@@ -67,8 +196,8 @@ Package graphics Info: Driver file: pdftex.def on input line 107.
 (/usr/local/texlive/2022basic/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen147
-\Gin@req@width=\dimen148
+\Gin@req@height=\dimen151
+\Gin@req@width=\dimen152
 )
 (/usr/local/texlive/2022basic/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
@@ -85,25 +214,29 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (/usr/local/texlive/2022basic/texmf-dist/tex/latex/l3backend/l3backend-pdftex.d
 ef
 File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count196
+\l__color_backend_stack_int=\count272
 \l__pdf_internal_box=\box50
 ) (./presentation.aux)
 \openout1 = `presentation.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -139,18 +272,39 @@ LaTeX Font Info:    ... okay on input line 19.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+Package hyperref Info: Link coloring OFF on input line 20.
+(/usr/local/texlive/2022basic/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
+
+(/usr/local/texlive/2022basic/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/usr/local/texlive/2022basic/texmf-dist/tex/generic/gettitlestring/gettitlestr
+ing.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count273
+)
+LaTeX Info: Redefining \ref on input line 20.
+LaTeX Info: Redefining \pageref on input line 20.
+LaTeX Info: Redefining \nameref on input line 20.
+ (./presentation.out) (./presentation.out)
+\@outlinefile=\write3
+\openout3 = `presentation.out'.
+
+
 (/usr/local/texlive/2022basic/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count197
-\scratchdimen=\dimen149
+\scratchcounter=\count274
+\scratchdimen=\dimen153
 \scratchbox=\box51
-\nofMPsegments=\count198
-\nofMParguments=\count199
+\nofMPsegments=\count275
+\nofMParguments=\count276
 \everyMPshowfont=\toks19
-\MPscratchCnt=\count266
-\MPscratchDim=\dimen150
-\MPnumerator=\count267
-\makeMPintoPDFobject=\count268
+\MPscratchCnt=\count277
+\MPscratchDim=\dimen154
+\MPnumerator=\count278
+\makeMPintoPDFobject=\count279
 \everyMPtoPDFconversion=\toks20
 )
 (/usr/local/texlive/2022basic/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.s
@@ -163,211 +317,336 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Font Info:    Trying to load font information for U+msa on input line 20.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 22.
 
  (/usr/local/texlive/2022basic/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 20.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 22.
 
 
 (/usr/local/texlive/2022basic/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 (./presentation.toc)
-\tf@toc=\write3
-\openout3 = `presentation.toc'.
+\tf@toc=\write4
+\openout4 = `presentation.toc'.
 
  [1
 
 {/usr/local/texlive/2022basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-<./imgs//1_init.png, id=11, 773.89125pt x 157.58875pt>
+<./imgs//1_init.png, id=70, 588.1975pt x 157.58875pt>
 File: ./imgs//1_init.png Graphic file (type png)
 <use ./imgs//1_init.png>
-Package pdftex.def Info: ./imgs//1_init.png  used on input line 29.
-(pdftex.def)             Requested size: 309.55101pt x 63.03436pt.
-<./imgs//1_spark.png, id=13, 1009.27063pt x 609.77812pt>
+Package pdftex.def Info: ./imgs//1_init.png  used on input line 51.
+(pdftex.def)             Requested size: 294.09802pt x 78.79417pt.
+<./imgs//1_spark.png, id=72, 1009.27063pt x 609.77812pt>
 File: ./imgs//1_spark.png Graphic file (type png)
 <use ./imgs//1_spark.png>
-Package pdftex.def Info: ./imgs//1_spark.png  used on input line 32.
-(pdftex.def)             Requested size: 403.7011pt x 243.90692pt.
-<./imgs//1_pandas.png, id=14, 1213.53375pt x 266.9975pt>
+Package pdftex.def Info: ./imgs//1_spark.png  used on input line 57.
+(pdftex.def)             Requested size: 504.63408pt x 304.8883pt.
+
+Overfull \hbox (74.62946pt too wide) in paragraph at lines 57--58
+ [] 
+ []
+
+[2 <./imgs//1_init.png>]
+<./imgs//1_pandas.png, id=80, 1213.53375pt x 266.9975pt>
 File: ./imgs//1_pandas.png Graphic file (type png)
 <use ./imgs//1_pandas.png>
-Package pdftex.def Info: ./imgs//1_pandas.png  used on input line 35.
-(pdftex.def)             Requested size: 485.4049pt x 106.79709pt.
+Package pdftex.def Info: ./imgs//1_pandas.png  used on input line 63.
+(pdftex.def)             Requested size: 606.7654pt x 133.49841pt.
 
-Overfull \hbox (55.40028pt too wide) in paragraph at lines 35--36
+Overfull \hbox (176.76077pt too wide) in paragraph at lines 63--64
  [] 
  []
 
-<./imgs//1_echarts_1.png, id=15, 1228.59pt x 742.775pt>
+[3 <./imgs//1_spark.png> <./imgs//1_pandas.png>]
+<./imgs//1_echarts_1.png, id=89, 1228.59pt x 742.775pt>
 File: ./imgs//1_echarts_1.png Graphic file (type png)
 <use ./imgs//1_echarts_1.png>
-Package pdftex.def Info: ./imgs//1_echarts_1.png  used on input line 43.
+Package pdftex.def Info: ./imgs//1_echarts_1.png  used on input line 75.
 (pdftex.def)             Requested size: 368.57985pt x 222.83421pt.
-<./imgs//1_echarts_2.png, id=16, 1226.5825pt x 660.4675pt>
+<./imgs//1_echarts_2.png, id=90, 1226.5825pt x 660.4675pt>
 File: ./imgs//1_echarts_2.png Graphic file (type png)
 <use ./imgs//1_echarts_2.png>
-Package pdftex.def Info: ./imgs//1_echarts_2.png  used on input line 44.
+Package pdftex.def Info: ./imgs//1_echarts_2.png  used on input line 76.
 (pdftex.def)             Requested size: 367.97758pt x 198.14177pt.
-[2 <./imgs//1_init.png> <./imgs//1_spark.png> <./imgs//1_pandas.png>]
-<./imgs//1_conditions.png, id=23, 779.41188pt x 227.34938pt>
+ [4 <./imgs//1_echarts_1.png>]
+Overfull \hbox (15.12839pt too wide) in paragraph at lines 81--82
+\OT1/cmr/m/n/10.95 colonne che sono \OT1/cmr/m/it/10.95 'id', 'on-set-Date-Time
+', 're-source-Type', 'sub-ject[]reference', 'meta[]lastUpdated',
+ []
+
+
+Overfull \hbox (64.79283pt too wide) in paragraph at lines 81--82
+\OT1/cmr/m/it/10.95 'meta[]profile', 'ver-i-fi-ca-tion-Sta-tus[]coding[]code', 
+'ver-i-fi-ca-tion-Sta-tus[]coding[]system', 'cat-e-gory[]coding[]code',
+ []
+
+
+Overfull \hbox (51.77988pt too wide) in paragraph at lines 81--82
+\OT1/cmr/m/it/10.95 'cat-e-gory[]coding[]display','category[]coding[]system' \O
+T1/cmr/m/n/10.95 e ci servi-ranno so-la-mente \OT1/cmr/m/it/10.95 clin-i-cal-St
+a-tus[]coding[]code,
+ []
+
+<./imgs//1_conditions.png, id=96, 457.20813pt x 227.34938pt>
 File: ./imgs//1_conditions.png Graphic file (type png)
 <use ./imgs//1_conditions.png>
-Package pdftex.def Info: ./imgs//1_conditions.png  used on input line 50.
-(pdftex.def)             Requested size: 311.75923pt x 90.93813pt.
- [3 <./imgs//1_echarts_1.png> <./imgs//1_echarts_2.png>]
-<./imgs//1_bars.png, id=29, 885.80937pt x 640.3925pt>
+Package pdftex.def Info: ./imgs//1_conditions.png  used on input line 84.
+(pdftex.def)             Requested size: 228.6035pt x 113.67441pt.
+<./imgs//1_bars.png, id=98, 754.31813pt x 640.3925pt>
 File: ./imgs//1_bars.png Graphic file (type png)
 <use ./imgs//1_bars.png>
-Package pdftex.def Info: ./imgs//1_bars.png  used on input line 53.
-(pdftex.def)             Requested size: 354.31747pt x 256.15245pt.
-<./imgs//1_funnel.png, id=30, 983.675pt x 557.58313pt>
+Package pdftex.def Info: ./imgs//1_bars.png  used on input line 90.
+(pdftex.def)             Requested size: 377.15814pt x 320.19547pt.
+[5 <./imgs//1_echarts_2.png> <./imgs//1_conditions.png>]
+<./imgs//1_funnel.png, id=106, 797.47937pt x 557.58313pt>
 File: ./imgs//1_funnel.png Graphic file (type png)
 <use ./imgs//1_funnel.png>
-Package pdftex.def Info: ./imgs//1_funnel.png  used on input line 56.
-(pdftex.def)             Requested size: 393.46303pt x 223.0293pt.
- [4 <./imgs//1_conditions.png> <./imgs//1_bars.png>]
-<./imgs//2_obs.png, id=36, 1211.52625pt x 302.12875pt>
+Package pdftex.def Info: ./imgs//1_funnel.png  used on input line 96.
+(pdftex.def)             Requested size: 398.73871pt x 278.79088pt.
+ [6 <./imgs//1_bars.png>]
+Overfull \hbox (26.03607pt too wide) in paragraph at lines 101--102
+\OT1/cmr/m/it/10.95 'en-counter[]reference', 'bodySite[]coding[]code', 'bodySit
+e[]coding[]display', 'bodySite[]coding[]system',
+ []
+
+
+Overfull \hbox (65.8562pt too wide) in paragraph at lines 101--102
+\OT1/cmr/m/it/10.95 ableCon-cept[]coding[]code', 'val-ue-Code-ableCon-cept[]cod
+ing[]display', 'val-ue-Code-ableCon-cept[]coding[]system',
+ []
+
+
+Overfull \hbox (52.42447pt too wide) in paragraph at lines 101--102
+\OT1/cmr/m/it/10.95 'com-po-nent[]valueQuantity[]code', 'com-po-nent[]valueQuan
+tity[]system', 'com-po-nent[]valueQuantity[]unit',
+ []
+
+
+Overfull \hbox (33.61966pt too wide) in paragraph at lines 101--102
+\OT1/cmr/m/it/10.95 'com-po-nent[]valueQuantity[]value', 'com-po-nent[]code[]co
+ding[]code', 'com-po-nent[]code[]coding[]display',
+ []
+
+
+Overfull \hbox (4.1621pt too wide) in paragraph at lines 101--102
+\OT1/cmr/m/it/10.95 'val-ue-Sam-pled-Data[]origin[]unit', 'val-ue-Sam-pled-Data
+[]origin[]value', 'ef-fec-tivePe-riod[]end', 'ef-
+ []
+
+
+Overfull \hbox (66.58238pt too wide) in paragraph at lines 101--102
+\OT1/cmr/m/it/10.95 fec-tivePe-riod[]start', 'code[]text', 'cat-e-gory[]coding[
+]code', 'cat-e-gor[]coding[]display', 'cat-e-gory[]coding[]system',
+ []
+
+
+Overfull \hbox (41.95993pt too wide) in paragraph at lines 101--102
+\OT1/cmr/m/it/10.95 'iden-ti-fier[]system', 'iden-ti-fier[]value', 'ex-ten-sion
+[]url', 'ex-ten-sion[]valueCodeableConcept[]coding[]code',
+ []
+
+
+Overfull \hbox (38.57397pt too wide) in paragraph at lines 101--102
+\OT1/cmr/m/it/10.95 'ex-ten-sion[]valueCodeableConcept[]coding[]display', 'ex-t
+en-sion[]valueCodeableConcept[]coding[]system',
+ []
+
+
+Overfull \hbox (154.26366pt too wide) in paragraph at lines 101--102
+\OT1/cmr/m/it/10.95 nent[]valueSampledData[]period', 'com-po-nent[]valueSampled
+Data[]origin[]code', 'com-po-nent[]valueSampledData[]origin[]system',
+ []
+
+
+Overfull \hbox (44.72781pt too wide) in paragraph at lines 101--102
+\OT1/cmr/m/it/10.95 'com-po-nent[]valueSampledData[]origin[]unit', 'com-po-nent
+[]code[]text', 'com-po-nent[]code[]coding[]version',
+ []
+
+
+Overfull \hbox (47.23679pt too wide) in paragraph at lines 101--102
+\OT1/cmr/m/it/10.95 'com-po-nent[]valueSampledData[]extension[]url', 'com-po-ne
+nt[]valueSampledData[]extension[]valueString'\OT1/cmr/m/n/10.95 . 
+ []
+
+[7 <./imgs//1_funnel.png>]
+<./imgs//2_obs.png, id=118, 1211.52625pt x 302.12875pt>
 File: ./imgs//2_obs.png Graphic file (type png)
 <use ./imgs//2_obs.png>
-Package pdftex.def Info: ./imgs//2_obs.png  used on input line 62.
-(pdftex.def)             Requested size: 484.60191pt x 120.84935pt.
+Package pdftex.def Info: ./imgs//2_obs.png  used on input line 104.
+(pdftex.def)             Requested size: 545.18178pt x 135.95668pt.
 
-Overfull \hbox (54.59729pt too wide) in paragraph at lines 62--63
+Overfull \hbox (115.17715pt too wide) in paragraph at lines 104--105
  [] 
  []
 
-<./imgs//2_msn.png, id=37, 860.21375pt x 90.83937pt>
+<./imgs//2_msn.png, id=119, 465.74pt x 90.83937pt>
 File: ./imgs//2_msn.png Graphic file (type png)
 <use ./imgs//2_msn.png>
-Package pdftex.def Info: ./imgs//2_msn.png  used on input line 68.
-(pdftex.def)             Requested size: 344.07939pt x 36.3351pt.
-<./imgs//2_msn_bars.png, id=38, 1919.17pt x 1090.0725pt>
+Package pdftex.def Info: ./imgs//2_msn.png  used on input line 114.
+(pdftex.def)             Requested size: 209.58105pt x 40.87733pt.
+<./imgs//2_msn_bars.png, id=120, 1919.17pt x 1090.0725pt>
 File: ./imgs//2_msn_bars.png Graphic file (type png)
 <use ./imgs//2_msn_bars.png>
-Package pdftex.def Info: ./imgs//2_msn_bars.png  used on input line 71.
+Package pdftex.def Info: ./imgs//2_msn_bars.png  used on input line 120.
 (pdftex.def)             Requested size: 383.8272pt x 218.01064pt.
-[5 <./imgs//1_funnel.png> <./imgs//2_obs.png> <./imgs//2_msn.png>]
-<./imgs//2_msn_matrix.png, id=45, 1660.2025pt x 900.36375pt>
+[8 <./imgs//2_obs.png> <./imgs//2_msn.png>]
+<./imgs//2_msn_matrix.png, id=127, 1660.2025pt x 900.36375pt>
 File: ./imgs//2_msn_matrix.png Graphic file (type png)
 <use ./imgs//2_msn_matrix.png>
-Package pdftex.def Info: ./imgs//2_msn_matrix.png  used on input line 74.
+Package pdftex.def Info: ./imgs//2_msn_matrix.png  used on input line 126.
 (pdftex.def)             Requested size: 415.0496pt x 225.09038pt.
-<./imgs//2_msn_heatmap.png, id=46, 1483.5425pt x 1002.74625pt>
+ [9 <./imgs//2_msn_bars.png> <./imgs//2_msn_matrix.png>]
+<./imgs//2_msn_heatmap.png, id=134, 1483.5425pt x 1002.74625pt>
 File: ./imgs//2_msn_heatmap.png Graphic file (type png)
 <use ./imgs//2_msn_heatmap.png>
-Package pdftex.def Info: ./imgs//2_msn_heatmap.png  used on input line 77.
+Package pdftex.def Info: ./imgs//2_msn_heatmap.png  used on input line 132.
 (pdftex.def)             Requested size: 370.88472pt x 250.68594pt.
- [6 <./imgs//2_msn_bars.png> <./imgs//2_msn_matrix.png>]
-<./imgs//2_filter.png, id=52, 890.32625pt x 289.08pt>
+
+Overfull \hbox (23.44876pt too wide) in paragraph at lines 141--142
+\OT1/cmr/m/n/10.95 6 at-tributi: \OT1/cmr/m/it/10.95 sub-ject[]reference, ef-fe
+c-tive-Date-Time, code[]coding[]code, com-po-nent[]code[]coding[]code,
+ []
+
+
+Overfull \hbox (5.27658pt too wide) in paragraph at lines 141--142
+\OT1/cmr/m/it/10.95 val-ue-Quan-tity[]value, com-po-nent[]valueQuantity[]value\
+OT1/cmr/m/n/10.95 . Questi at-tributi cor-rispon-dono rispet-
+ []
+
+[10 <./imgs//2_msn_heatmap.png>]
+<./imgs//2_filter.png, id=140, 475.27562pt x 289.08pt>
 File: ./imgs//2_filter.png Graphic file (type png)
 <use ./imgs//2_filter.png>
-Package pdftex.def Info: ./imgs//2_filter.png  used on input line 83.
-(pdftex.def)             Requested size: 356.12419pt x 115.62994pt.
-<./imgs//2_filter_obs.png, id=53, 867.74188pt x 316.18124pt>
+Package pdftex.def Info: ./imgs//2_filter.png  used on input line 146.
+(pdftex.def)             Requested size: 213.87206pt x 130.0848pt.
+<./imgs//2_filter_obs.png, id=141, 457.71pt x 316.18124pt>
 File: ./imgs//2_filter_obs.png Graphic file (type png)
 <use ./imgs//2_filter_obs.png>
-Package pdftex.def Info: ./imgs//2_filter_obs.png  used on input line 86.
-(pdftex.def)             Requested size: 347.0906pt x 126.47025pt.
-<./imgs//2_filter_obs_df.png, id=54, 871.75688pt x 199.24437pt>
+Package pdftex.def Info: ./imgs//2_filter_obs.png  used on input line 152.
+(pdftex.def)             Requested size: 205.96759pt x 142.28024pt.
+<./imgs//2_filter_obs_df.png, id=142, 871.75688pt x 199.24437pt>
 File: ./imgs//2_filter_obs_df.png Graphic file (type png)
 <use ./imgs//2_filter_obs_df.png>
-Package pdftex.def Info: ./imgs//2_filter_obs_df.png  used on input line 89.
-(pdftex.def)             Requested size: 348.69658pt x 79.69633pt.
- [7 <./imgs//2_msn_heatmap.png> <./imgs//2_filter.png> <./imgs//2_filter_obs.pn
-g>]
-<./imgs//2_msn_df.png, id=62, 1536.74126pt x 775.89874pt>
+Package pdftex.def Info: ./imgs//2_filter_obs_df.png  used on input line 158.
+(pdftex.def)             Requested size: 392.28697pt x 89.65913pt.
+ [11 <./imgs//2_filter.png> <./imgs//2_filter_obs.png> <./imgs//2_filter_obs_df
+.png>]
+<./imgs//2_msn_df.png, id=150, 1536.74126pt x 775.89874pt>
 File: ./imgs//2_msn_df.png Graphic file (type png)
 <use ./imgs//2_msn_df.png>
-Package pdftex.def Info: ./imgs//2_msn_df.png  used on input line 92.
-(pdftex.def)             Requested size: 614.68562pt x 310.354pt.
-
-Overfull \hbox (184.681pt too wide) in paragraph at lines 92--93
- [] 
- []
-
-<./imgs//2_sort.png, id=63, 879.285pt x 277.035pt>
+Package pdftex.def Info: ./imgs//2_msn_df.png  used on input line 164.
+(pdftex.def)             Requested size: 384.18437pt x 193.97421pt.
+<./imgs//2_sort.png, id=151, 879.285pt x 277.035pt>
 File: ./imgs//2_sort.png Graphic file (type png)
 <use ./imgs//2_sort.png>
-Package pdftex.def Info: ./imgs//2_sort.png  used on input line 100.
-(pdftex.def)             Requested size: 351.70778pt x 110.81203pt.
-[8 <./imgs//2_filter_obs_df.png> <./imgs//2_msn_df.png>]
-<./imgs//3_trunc.png, id=69, 872.25874pt x 306.64563pt>
+Package pdftex.def Info: ./imgs//2_sort.png  used on input line 178.
+(pdftex.def)             Requested size: 395.6746pt x 124.6646pt.
+ [12 <./imgs//2_msn_df.png>]
+<./imgs//3_trunc.png, id=157, 520.94624pt x 306.64563pt>
 File: ./imgs//3_trunc.png Graphic file (type png)
 <use ./imgs//3_trunc.png>
-Package pdftex.def Info: ./imgs//3_trunc.png  used on input line 103.
-(pdftex.def)             Requested size: 348.89731pt x 122.65607pt.
-<./imgs//3_trunc_df.png, id=70, 650.93187pt x 284.06125pt>
+Package pdftex.def Info: ./imgs//3_trunc.png  used on input line 184.
+(pdftex.def)             Requested size: 234.42365pt x 137.98924pt.
+<./imgs//3_trunc_df.png, id=158, 469.25313pt x 284.06125pt>
 File: ./imgs//3_trunc_df.png Graphic file (type png)
 <use ./imgs//3_trunc_df.png>
-Package pdftex.def Info: ./imgs//3_trunc_df.png  used on input line 106.
-(pdftex.def)             Requested size: 260.36813pt x 113.62247pt.
-<./imgs//3_fill_time.png, id=71, 847.165pt x 591.71063pt>
+Package pdftex.def Info: ./imgs//3_trunc_df.png  used on input line 188.
+(pdftex.def)             Requested size: 211.16194pt x 127.82637pt.
+ [13 <./imgs//2_sort.png> <./imgs//3_trunc.png> <./imgs//3_trunc_df.png>]
+<./imgs//3_fill_time.png, id=167, 533.995pt x 591.71063pt>
 File: ./imgs//3_fill_time.png Graphic file (type png)
 <use ./imgs//3_fill_time.png>
-Package pdftex.def Info: ./imgs//3_fill_time.png  used on input line 109.
-(pdftex.def)             Requested size: 338.85999pt x 236.68005pt.
- [9 <./imgs//2_sort.png> <./imgs//3_trunc.png> <./imgs//3_trunc_df.png>]
-<./imgs//3_fill_time_df.png, id=78, 765.86125pt x 319.69438pt>
+Package pdftex.def Info: ./imgs//3_fill_time.png  used on input line 194.
+(pdftex.def)             Requested size: 240.29553pt x 266.26732pt.
+<./imgs//3_fill_time_df.png, id=168, 489.83pt x 319.69438pt>
 File: ./imgs//3_fill_time_df.png Graphic file (type png)
 <use ./imgs//3_fill_time_df.png>
-Package pdftex.def Info: ./imgs//3_fill_time_df.png  used on input line 112.
-(pdftex.def)             Requested size: 306.33907pt x 127.87547pt.
-<./imgs//2_msn_df2.png, id=79, 1536.74126pt x 734.745pt>
+Package pdftex.def Info: ./imgs//3_fill_time_df.png  used on input line 197.
+(pdftex.def)             Requested size: 220.42146pt x 143.86113pt.
+<./imgs//2_msn_df2.png, id=169, 1536.74126pt x 734.745pt>
 File: ./imgs//2_msn_df2.png Graphic file (type png)
 <use ./imgs//2_msn_df2.png>
-Package pdftex.def Info: ./imgs//2_msn_df2.png  used on input line 115.
-(pdftex.def)             Requested size: 461.02594pt x 220.42519pt.
-
-Overfull \hbox (31.02132pt too wide) in paragraph at lines 115--116
- [] 
- []
-
-[10 <./imgs//3_fill_time.png> <./imgs//3_fill_time_df.png>]
-<./imgs//4_graph.png, id=85, 821.56938pt x 381.92688pt>
+Package pdftex.def Info: ./imgs//2_msn_df2.png  used on input line 203.
+(pdftex.def)             Requested size: 307.3428pt x 146.9464pt.
+ [14 <./imgs//3_fill_time.png> <./imgs//3_fill_time_df.png>]
+<./imgs//4_graph.png, id=176, 750.805pt x 381.92688pt>
 File: ./imgs//4_graph.png Graphic file (type png)
 <use ./imgs//4_graph.png>
-Package pdftex.def Info: ./imgs//4_graph.png  used on input line 122.
-(pdftex.def)             Requested size: 328.62193pt x 152.76804pt.
-<./imgs//4_hb.png, id=86, 818.05624pt x 614.295pt>
+Package pdftex.def Info: ./imgs//4_graph.png  used on input line 211.
+(pdftex.def)             Requested size: 337.85913pt x 171.8655pt.
+<./imgs//4_hb.png, id=177, 779.91376pt x 614.295pt>
 File: ./imgs//4_hb.png Graphic file (type png)
 <use ./imgs//4_hb.png>
-Package pdftex.def Info: ./imgs//4_hb.png  used on input line 125.
-(pdftex.def)             Requested size: 327.21669pt x 245.71364pt.
- [11 <./imgs//2_msn_df2.png> <./imgs//4_graph.png>]
-<./imgs//4_sklearn.png, id=92, 817.55438pt x 384.93813pt>
+Package pdftex.def Info: ./imgs//4_hb.png  used on input line 214.
+(pdftex.def)             Requested size: 350.95795pt x 276.43019pt.
+ [15 <./imgs//2_msn_df2.png> <./imgs//4_graph.png>]
+<./imgs//4_sklearn.png, id=184, 630.85687pt x 384.93813pt>
 File: ./imgs//4_sklearn.png Graphic file (type png)
 <use ./imgs//4_sklearn.png>
-Package pdftex.def Info: ./imgs//4_sklearn.png  used on input line 128.
-(pdftex.def)             Requested size: 327.01596pt x 153.97252pt.
-<./imgs//4_hb_mean.png, id=93, 808.01875pt x 610.28pt>
+Package pdftex.def Info: ./imgs//4_sklearn.png  used on input line 220.
+(pdftex.def)             Requested size: 283.88297pt x 173.22055pt.
+ [16 <./imgs//4_hb.png> <./imgs//4_sklearn.png>]
+<./imgs//4_hb_mean.png, id=191, 770.37813pt x 610.28pt>
 File: ./imgs//4_hb_mean.png Graphic file (type png)
 <use ./imgs//4_hb_mean.png>
-Package pdftex.def Info: ./imgs//4_hb_mean.png  used on input line 131.
-(pdftex.def)             Requested size: 323.20177pt x 244.10767pt.
- [12 <./imgs//4_hb.png> <./imgs//4_sklearn.png>] [13 <./imgs//4_hb_mean.png>] (
-./presentation.aux) ) 
+Package pdftex.def Info: ./imgs//4_hb_mean.png  used on input line 226.
+(pdftex.def)             Requested size: 346.66696pt x 274.62346pt.
+<./imgs//5_gif.png, id=192, 614.79688pt x 354.32375pt>
+File: ./imgs//5_gif.png Graphic file (type png)
+<use ./imgs//5_gif.png>
+Package pdftex.def Info: ./imgs//5_gif.png  used on input line 236.
+(pdftex.def)             Requested size: 276.65604pt x 159.4442pt.
+ [17 <./imgs//4_hb_mean.png>]
+<./imgs//5_mk_gif_1.png, id=199, 616.3025pt x 180.17313pt>
+File: ./imgs//5_mk_gif_1.png Graphic file (type png)
+<use ./imgs//5_mk_gif_1.png>
+Package pdftex.def Info: ./imgs//5_mk_gif_1.png  used on input line 240.
+(pdftex.def)             Requested size: 277.33356pt x 81.07715pt.
+<./imgs//5_hb.png, id=200, 903.375pt x 501.875pt>
+File: ./imgs//5_hb.png Graphic file (type png)
+<use ./imgs//5_hb.png>
+Package pdftex.def Info: ./imgs//5_hb.png  used on input line 244.
+(pdftex.def)             Requested size: 361.3436pt x 200.74643pt.
+<./imgs//5_mk_gif_2.png, id=201, 619.31375pt x 234.8775pt>
+File: ./imgs//5_mk_gif_2.png Graphic file (type png)
+<use ./imgs//5_mk_gif_2.png>
+Package pdftex.def Info: ./imgs//5_mk_gif_2.png  used on input line 250.
+(pdftex.def)             Requested size: 278.68861pt x 105.6939pt.
+ [18 <./imgs//5_gif.png> <./imgs//5_mk_gif_1.png> <./imgs//5_hb.png>]
+<./imgs//5_hb_sum.png, id=209, 903.375pt x 501.875pt>
+File: ./imgs//5_hb_sum.png Graphic file (type png)
+<use ./imgs//5_hb_sum.png>
+Package pdftex.def Info: ./imgs//5_hb_sum.png  used on input line 254.
+(pdftex.def)             Requested size: 361.3436pt x 200.74643pt.
+ [19 <./imgs//5_mk_gif_2.png> <./imgs//5_hb_sum.png>] (./presentation.aux)
+Package rerunfilecheck Info: File `presentation.out' has not changed.
+(rerunfilecheck)             Checksum: 877FCD1C23B32464AEE209B193FD5229;1136.
+ ) 
 Here is how much of TeX's memory you used:
- 2609 strings out of 479719
- 41823 string characters out of 5880574
- 323607 words of memory out of 5000000
- 20583 multiletter control sequences out of 15000+600000
- 477312 words of font info for 58 fonts, out of 8000000 for 9000
+ 9416 strings out of 479719
+ 149373 string characters out of 5880574
+ 430549 words of memory out of 5000000
+ 27249 multiletter control sequences out of 15000+600000
+ 477658 words of font info for 59 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 55i,6n,62p,209b,218s stack positions out of 10000i,1000n,20000p,200000b,200000s
- </Users/tommasoromano/Library/texlive/2022basic/texmf-var
-/fonts/pk/ljfour/jknappen/ec/tcrm1095.600pk></usr/local/texlive/2022basic/texmf
--dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2022basic/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022bas
-ic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022
-basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2
-022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on presentation.pdf (13 pages, 2612298 bytes).
+ 60i,6n,63p,2142b,392s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ </Users/tommasoromano/Library/texlive/2022basic/texmf-var/fonts/pk/ljfour/jk
+nappen/ec/tcrm1095.600pk></usr/local/texlive/2022basic/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022basic/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022basic/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022basic/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2022basic/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on presentation.pdf (19 pages, 2811581 bytes).
 PDF statistics:
- 132 PDF objects out of 1000 (max. 8388607)
- 51 compressed objects within 1 object stream
- 0 named destinations out of 1000 (max. 500000)
- 136 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 257 PDF objects out of 1000 (max. 8388607)
+ 157 compressed objects within 2 object streams
+ 32 named destinations out of 1000 (max. 500000)
+ 249 words of extra memory for PDF output out of 10000 (max. 10000000)
 
