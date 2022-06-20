@@ -13,7 +13,7 @@
 
 \graphicspath{ {./imgs/} } 			
 
-\title{Missing Data}
+\title{Visualizing Missing Values}
 \author{Tommaso Romano - 941796}
 %\date{}
 
@@ -24,27 +24,21 @@
 \pagebreak
 \section{Introduzione}
 
-I dati del mondo reale sono disordinati e spesso contengono molti valori mancanti. Potrebbero esserci più ragioni per i valori mancanti, ma principalmente il motivo della mancanza può essere attribuito a:
+Il seguente progetto di Visualizzazione Scientifica si occupa di analizzare, modificare e visualizzare dati provenienti da misurazioni cliniche. Pertanto, per diverse ragioni i dataset utilizzati sono disordinati e spesso contengono molti valori mancanti o duplicati. Potrebbero esserci più ragioni per la mancanza di tali dati, ma principalmente il motivo della loro assenza può essere attribuito a:
 \begin{itemize}
 \item Dati non esistono.
 \item Dati non registrati per errore umano.
 \item Dati cancellati accidentalmente.
+\item Dati non registrati per malfunzionamento.
 \end{itemize}
 
-Di queste ragioni per cui i dati sono mancanti, se ne può aggiungere un'altra che à la causa principale della presenza di missing values nel dataset che andremo ad utilizzare: 
-\begin{itemize}
-\item Dati non registrati per malfunzionamento  
-\end{itemize}
-
-Infatti il dataset che useremo per questo progetto è relativo ad osservazioni di dati clinici che possono contenere dati mancanti, principalmente per mancata registrazione da parte dell'utente o malfunzionamento degli apparecchi di registrazione dei dati.
+Ci occuperemo quindi di individuarli e modificarli per rendere il dataset utilizzabile per una corretta visualizzazione.
 
 \subsection{Pyspark}
 
-La tecnologia per gestire dataset, non sarà Pandas ma PySpark: PySpark è un'interfaccia per Apache Spark in Python. Non solo consente di scrivere applicazioni Spark usando le API Python, ma fornisce anche la shell PySpark per analizzare interattivamente i dati in un ambiente distribuito. PySpark supporta la maggior parte delle funzionalità di Spark come Spark SQL, DataFrame, Streaming, MLlib (Machine Learning) e Spark Core.
+La tecnologia per gestire dataset, sarà PySpark invece di Pandas: PySpark è un'interfaccia per Apache Spark in Python. Non solo consente di scrivere applicazioni Spark usando le API Python, ma fornisce anche la shell PySpark per analizzare interattivamente i dati in un ambiente distribuito. PySpark supporta la maggior parte delle funzionalità di Spark come Spark SQL, DataFrame, Streaming, MLlib (Machine Learning) e Spark Core.
 
-
-La scelta di utilizzare PySpark nel progetto è dovuta alla necessita di elaborare grosse quantità di dati, e velocemente. Tuttavia, per semplificare, useremo solamente una parte delle osservazione a disposizione, concentrandoci solamente su alcune condizioni cliniche. 
-
+La scelta di utilizzare PySpark nel progetto è dovuta alla necessita di elaborare grosse quantità di dati, velocemente. Considerando l'enorme quantità di dati a disposizione, in questo progetto utilizzeremo solo una parte delle osservazione a disposizione, concentrandoci quindi su alcune condizioni cliniche. 
 
 Ecco come inizializzare PySpark e creare i DataFrame:
 \begin{center}
@@ -57,7 +51,7 @@ PySpark offre la possibilità di visualizzare il corrente DataFrame come stringa
 \includegraphics[scale=0.5]{1_spark.png}
 \end{center}
 
-Tuttavia dovuto alla quantità di colonne e l'utilizzo di jupyter nootebok, la visualizzazione tramite stringa, viene distorta ed a fatica comprensibile. Pertanto, dato il ridotto numero di osservazioni, trasformeremo il DataFrame di PySpark in Pandas per visualizzare meglio i risultati:
+Come si può vedere, la visualizzazione tramite stringa, viene distorta ed è a fatica comprensibile. Questo è dovuto alla grande quantità di colonne e l'utilizzo di Jupyter Notebook. Pertanto, dato che ridurremo il numero delle osservazioni, trasformeremo il DataFrame di PySpark in Pandas per visualizzare meglio i risultati:
 
 \begin{center}
 \includegraphics[scale=0.5]{1_pandas.png}
@@ -69,7 +63,7 @@ Tuttavia dovuto alla quantità di colonne e l'utilizzo di jupyter nootebok, la v
 Un'altra tecnologia che useremo in questo progetto è ECharts di Apache: è uno strumento di visualizzazione JavaScript open source, che può essere eseguito in modo fluido su PC e dispositivi mobili. Infatti, a differenza dei grafici statici di matplot, ECharts offre una soluzione dinamica ed interattiva, oltre che ad una gamma più ampia e maggiormente personalizzabile di grafici.
 
 
-Per funzionare su Python useremo la libreria \emph{pyecharts}. Una galleria dinamica di esempio ufficiale di Apache si trova al \href{https://echarts.apache.org/examples/en/index.html}{seguente link}, mentre delle gif di esempio di cui ho riportato sotto un fermo immagine, si trovano al \href{https://github.com/pyecharts/pyecharts#-demo}{seguente link}.
+Echarts, per funzionare su Python ha bisogno di una libreria come \emph{pyecharts}. Una galleria dinamica di esempio ufficiale di Apache si trova al \href{https://echarts.apache.org/examples/en/index.html}{seguente link}, mentre delle gif di esempio di cui ho riportato sotto un fermo immagine, si trovano al \href{https://github.com/pyecharts/pyecharts#-demo}{seguente link}.
 
 \begin{center}
 \includegraphics[scale=0.3]{1_echarts_1.png}
@@ -78,7 +72,7 @@ Per funzionare su Python useremo la libreria \emph{pyecharts}. Una galleria dina
 
 \subsection{Conditions}
 
-La prima cosa utile da fare, è utilizzare il dataset delle \emph{conditions} per identificare il numero di pazienti che sono seguiti per una data condizione clinica. Il DataFrame contiene 19 colonne che sono \emph{'id', 'onsetDateTime', 'resourceType', 'subject\_reference', 'meta\_lastUpdated', 'meta\_source', 'meta\_versionId', 'encounter\_reference', 'clinicalStatus\_coding\_code', 'clinicalStatus\_coding\_system', 'code\_coding\_code', 'code\_coding\_display', 'code\_coding\_system', 'meta\_profile', 'verificationStatus\_coding\_code', 'verificationStatus\_coding\_system', 'category\_coding\_code', 'category\_coding\_display','category\_coding\_system'} e ci serviranno solamente \emph{clinicalStatus\_coding\_code, code\_coding\_display} in modo tale da filtrare per pazienti marcati come \emph{active} e tramite PySpark, come per SQL raggrupparli tramite \emph{.groupBy()} per nome della condizione, conteggiarli ed ordinarli per in modo no ascendente:
+Iniziamo utilizzando il dataset delle \emph{conditions} per identificare il numero di pazienti che sono seguiti per una data condizione clinica. Il DataFrame contiene 19 colonne che sono \emph{'id', 'onsetDateTime', 'resourceType', 'subject\_reference', 'meta\_lastUpdated', 'meta\_source', 'meta\_versionId', 'encounter\_reference', 'clinicalStatus\_coding\_code', 'clinicalStatus\_coding\_system', 'code\_coding\_code', 'code\_coding\_display', 'code\_coding\_system', 'meta\_profile', 'verificationStatus\_coding\_code', 'verificationStatus\_coding\_system', 'category\_coding\_code', 'category\_coding\_display','category\_coding\_system'} e ci serviranno solamente \emph{clinicalStatus\_coding\_code, code\_coding\_display} in modo tale da filtrare per pazienti marcati come \emph{active} e tramite PySpark, come per SQL raggrupparli tramite \emph{.groupBy()} per nome della condizione, conteggiarli ed ordinarli in modo discendente:
 
 \begin{center}
 \includegraphics[scale=0.5]{1_conditions.png}
@@ -104,11 +98,11 @@ Terminata la visualizzazione delle condizioni esistenti dei pazienti, ci occupia
 \includegraphics[scale=0.45]{2_obs.png}
 \end{center}
 
-Di questi 63 attributi, ne useremo solamente alcuni per determinati tipi di condizioni cliniche e pazienti. Infatti, molti di questi contengono molti se non tutti valori nulli o mancanti. Pertanto, una metodo alternativo e visivo per identificare missing values è tramite làutilizzo di grafici come quello a barre, delle matrici o heatmap.
+Di questi 63 attributi, ne useremo solamente alcuni per determinati tipi di condizioni cliniche e pazienti. Infatti, molti di questi contengono molti se non tutti valori nulli o mancanti. Un metodo alternativo e visivo per identificare missing values è tramite l'utilizzo di grafici come quello a barre, delle matrici o heatmap.
 
 \subsection{Missingno}
 
-Una libreria utile a visualizzare i dati macanti è sicurant \emph{Missigno}. Infatti, contiene 3 grafici particolari (bars, matrix e heatmap) che consentono di visualizzare facilmente ed efficaciemente DataFrame con la presenza di dati mancanti, e capire i motivi per cui i dati non sono presenti.
+Una libreria utile a visualizzare i dati macanti è sicuramente \emph{Missigno}. Infatti, contiene tre grafici particolari (bars, matrix e heatmap) che consentono di visualizzare facilmente ed efficacemente DataFrame con la presenza di dati mancanti, e comprendere i motivi per cui i dati non sono presenti.
 
 \begin{center}
 \includegraphics[scale=0.45]{2_msn.png}
@@ -120,27 +114,27 @@ Il più facile grafico è sicuramente quello a barre che evidenzia per ogni attr
 \includegraphics[scale=0.2]{2_msn_bars.png}
 \end{center}
 
-La matrice qui sotto invece, aggiunge informazioni molto importanti rispetto al grafico precedente: permette ti analizzare visivamente dove (ovvero in qual riga del DataFrame) i dati sono mancanti. Infatti, presenta un ulteriore strumento alla sua destra che è il \emph{Data Completeness} che descrive in una data riga quanti sono i dati presenti rispetto a quelli mancanti. 
+La matrice qui sotto invece, aggiunge informazioni molto importanti rispetto al grafico precedente: permette di analizzare visivamente dove (ovvero in quale riga del DataFrame) i dati sono mancanti. Infatti, presenta un ulteriore strumento alla sua destra che è il \emph{Data Completeness} che descrive in una data riga quanti sono i dati presenti rispetto a quelli mancanti. 
 
 \begin{center}
 \includegraphics[scale=0.25]{2_msn_matrix.png}
 \end{center}
 
-Infine la heatmap permette di visualizzare un'altro elemento importante: la correlazione tra i diversi attributi. In particolare, consente di identificare motivi di missing values relativi alla relazione tra due attributi.
+Infine la Heatmap permette di visualizzare un altro elemento importante: la correlazione tra i diversi dati. In particolare, consente di identificare motivi di missing values relativi alla relazione tra due attributi.
 
 \begin{center}
 \includegraphics[scale=0.25]{2_msn_heatmap.png}
 \end{center}
 
-A causa dell'elevato numero di attributi nel DataFrame, nei grafici precedenti, la visualizzazione risulta perlopiù confusionaria, occorre quindi ridurre il numero di colonne, eliminando ad esempio quelle che contengono zero valori, oppure quelle che ne contengono sotto una percentuale fornita dall'utente. Successivamente a questa modifica, i grafici saranno sicuramente più di facile comprensione.
+A causa dell'elevato numero di attributi nel DataFrame, nei grafici precedenti, la visualizzazione risulta perlopiù confusionaria. Occorre quindi ridurre il numero di colonne, eliminando ad esempio quelle che contengono zero valori, oppure quelle che ne contengono sotto una percentuale fornita dall'utente. Successivamente a questa modifica, i grafici saranno sicuramente più di facile comprensione.
 
 \subsection{Filter}
 
-A causa dell'elevato numero di attributi nel DataFrame, nei grafici precedenti, la visualizzazione risulta perlopiù confusionaria, occorre quindi ridurre il numero di colonne, eliminando ad esempio quelle contenenti zero osservazioni o eliminando quelle che contengono un numero di osservazioni sotto una certa soglia. Infatti molti attributi del dataset che stiamo utilizzando, sono stati inseriti per osservazioni future o per misurazioni non più di alcun utilizzo.
+Per filtrare le osservazione e ridurre il numero di colonne, si può procedere eliminando ad esempio quelle contenenti zero osservazioni o eliminando quelle che contengono un numero di osservazioni sotto una certa soglia. Infatti molti attributi del dataset che stiamo utilizzando, sono stati inseriti per osservazioni future o per misurazioni non più di alcun utilizzo.
 
-Pertanto, per l'analisi di dati che svilupperemo successivamente, utilizzeremo solamente 6 attributi: \emph{subject\_reference, effectiveDateTime, code\_coding\_code, component\_code\_coding\_code, valueQuantity\_value, component\_valueQuantity\_value}. Questi attributi corrispondono rispettivamente a: id del paziente esaminato, il timestamp della registrazione della misurazione, il codice genitore dell'osservazione, il codice foglio dell'osservazione, il valore legato al codice padre dell'osservazione, il valore legato al codice figlio della misurazione.
+Pertanto, per l'analisi di dati che svilupperemo successivamente, utilizzeremo solamente 6: \emph{subject\_reference, effectiveDateTime, code\_coding\_code, component\_code\_coding\_code, valueQuantity\_value, component\_valueQuantity\_value}. Questi attributi corrispondono rispettivamente a: id del paziente esaminato, il timestamp della registrazione della misurazione, il codice genitore dell'osservazione, il codice foglio dell'osservazione, il valore legato al codice padre dell'osservazione, il valore legato al codice figlio della misurazione.
 
-Per filtrare efficacemente le osservazioni, creo queste due funzioni:
+Per filtrare efficacemente le osservazioni, creiamo queste due funzioni:
 
 \begin{center}
 \includegraphics[scale=0.45]{2_filter.png}
@@ -164,7 +158,7 @@ Grazie a queste funzioni possiamo ora visualizzare più efficacemente il grafico
 \includegraphics[scale=0.25]{2_msn_df.png}
 \end{center}
 
-Come si può vedere dal grafico, i dati sono competi e non sono presenti dati mancanti. Infatti, i dati legati agli attributi component* non sono necessari per le osservazioni di Heart Beats. Ma siamo sicuri che non ci sono dati mancanti?
+Come si può vedere dal grafico, i dati sono completi e non sono presenti dati mancanti. Infatti, i dati legati agli attributi component* non sono necessari per le osservazioni di Heart Beats. Ma siamo sicuri che non ci siano dati mancanti?
 
 \section{Imputation}
 
@@ -172,13 +166,13 @@ Nelle precedenti analisi del DataFrame per identificare i missing values ci siam
 
 \subsection{Time Series}
 
-Utilizziamo il DataFrame creato nei punti precedenti ed ordiniamolo secondo il timestamp della rilevazione. Ci possiamo facilmente accorgere che tra il 2021-11-15 e 2021-12-10 non ci sono state rilevazioni del battito cardiaco. Infatti, quando ci si occupa di rilevazioni che non sono fatte automaticamente da un software automatico ma fidandosi della costanza di un utente, si possono trovare numerosi dati mancanti legati all agli archi temporali.
+Utilizziamo il DataFrame creato nei punti precedenti ed ordiniamolo secondo il timestamp della rilevazione. Ci possiamo facilmente accorgere che tra il 2021-11-15 e 2021-12-10 non ci sono state rilevazioni del battito cardiaco. Questo perchè, quando ci si occupa di rilevazioni che non sono fatte automaticamente da un software, ma affidandosi unicamente alla rilevazione di un utente, si possono trovare numerosi dati mancanti o duplicati in un dato arco temporale oppure più rilevazioni in brevi periodi.
 
 \begin{center}
 \includegraphics[scale=0.45]{2_sort.png}
 \end{center}
 
-Nel DataFrame precedente sono inoltre presenti più rilevazioni al giorno (ad esempio 2021-12-11) e se volessimo visualizzare un grafico giorno per giorno ci troveremmo giorni duplicati. Occorre quindi creare un funzione che raggruppa i dati temporali per una quantità che possiamo definire noi (come per ore, giorni, settimane o mesi). Utilizziamo una funzione già esistente di PySpark (\emph{date\_trunc}) e successivamente raggruppiamo per l'intervallo di tempo selezionato con quelle colonne che sono immutabili alle osservazioni. Infine processiamo i gruppi creati con una funzione semplice come la media.
+Nel DataFrame precedente sono inoltre presenti più rilevazioni al giorno (ad esempio 2021-12-11) e se volessimo visualizzare un grafico giorno per giorno ci troveremmo giorni duplicati. Occorre quindi creare un funzione che raggruppa i dati temporali per una quantità che possiamo definire noi (come ad esempio ore, giorni, settimane o mesi). Utilizziamo una funzione già esistente di PySpark (\emph{date\_trunc}) e successivamente raggruppiamo per l'intervallo di tempo selezionato con quelle colonne che sono immutabili alle osservazioni. Infine processiamo i gruppi creati con una funzione semplice come la media.
 
 \begin{center}
 \includegraphics[scale=0.45]{3_trunc.png}
@@ -205,7 +199,7 @@ Il dataset ottenuto risolve il problema di timestamp mancanti aggiungendo inoltr
 
 \subsection{Simple Imputer}
 
-Per visualizzare il battito cardiaco di giorno per giorno o settimana per settimana è sicuramente opportuno usare un semplice grafico come quello a linea. Lo costruiamo tramite Echarts che permette di aggiungere altri indicatori come \emph{MarkLine} e \emph{MarkPoint} che possono essere usati per segnare dati sul grafico come massimo minimo e media.
+Per visualizzare il battito cardiaco giorno per giorno o settimana per settimana è sicuramente opportuno usare un semplice grafico come quello a linea. Lo costruiamo tramite Echarts che permette di aggiungere altri indicatori come \emph{MarkLine} e \emph{MarkPoint} che possono essere usati per segnare dati sul grafico come massimo minimo e media.
 
 \begin{center}
 \includegraphics[scale=0.45]{4_graph.png}
