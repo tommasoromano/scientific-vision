@@ -10,6 +10,6 @@ Echarts renders usage: download file > open with your browser
 
 **GIFS FROM VISUAL PRESENTATION**
 
-![GIF1](https://myoctocat.com/assets/images/base-octocat.svg](https://github.com/tommasoromano/scientific-vision/blob/main/imgs/HB_MOVE.gif)
+![GIF1](https://github.com/tommasoromano/scientific-vision/blob/main/imgs/HB_MOVE.gif)
 
-![GIF2](https://myoctocat.com/assets/images/base-octocat.svg](https://github.com/tommasoromano/scientific-vision/blob/main/imgs/HB_MOVE_sum.gif)
+![GIF2](https://github.com/tommasoromano/scientific-vision/blob/main/imgs/HB_MOVE_sum.gif)
